@@ -2,21 +2,16 @@ import { motion } from 'framer-motion'
 import { FiGithub, FiExternalLink } from 'react-icons/fi'
 
 const projects = [
-  {
-    num: '04',
-    title: 'AI-Based Test Automation Framework',
-    desc: 'LangChain + Mistral LLM test case generator with pytest, GitHub Actions CI/CD, and HTML reports. Fully offline via Ollama — zero API cost.',
-    tags: ['Python', 'LangChain', 'Mistral', 'pytest', 'Docker'],
-    github: 'https://github.com/1601chirag/ai-test-framework',
+
+    {
+    num: '01',
+    title: 'Multi-Model AI Orchestrator with Cost & Latency Optimization',
+    desc: 'Multi-model AI routing system with real-time cost optimization, latency-aware decisions, and streaming support.',
+    tags: ['FastAPI', 'React', 'Redis', 'Docker', 'Pydantic',],
+    github: 'https://github.com/1601chirag/ai-orchestrator',
   },
-  {
-    num: '03',
-    title: 'RAG-Based Study Assistant',
-    desc: 'PDF/TXT ingestion pipeline with SentenceTransformers + ChromaDB + FastAPI. Answers document queries using a local Mistral LLM — no cloud, no API costs.',
-    tags: ['Python', 'RAG', 'ChromaDB', 'FastAPI', 'Ollama'],
-    github: 'https://github.com/1601chirag/rag-study-assistant',
-  },
-  {
+
+    {
     num: '02',
     title: 'Security Intelligence Platform',
     desc: 'AI-powered CVE vulnerability manager pulling NIST NVD data. LangChain triage agent maps findings to OWASP Top 10 and generates remediation steps.',
@@ -25,11 +20,19 @@ const projects = [
   },
 
     {
-    num: '01',
-    title: 'Multi-Model AI Orchestrator with Cost & Latency Optimization',
-    desc: 'Multi-model AI routing system with real-time cost optimization, latency-aware decisions, and streaming support.',
-    tags: ['FastAPI', 'React', 'Redis', 'Docker', 'Pydantic',],
-    github: 'https://github.com/1601chirag/ai-orchestrator',
+    num: '03',
+    title: 'RAG-Based Study Assistant',
+    desc: 'PDF/TXT ingestion pipeline with SentenceTransformers + ChromaDB + FastAPI. Answers document queries using a local Mistral LLM — no cloud, no API costs.',
+    tags: ['Python', 'RAG', 'ChromaDB', 'FastAPI', 'Ollama'],
+    github: 'https://github.com/1601chirag/rag-study-assistant',
+  },
+  
+    {
+    num: '04',
+    title: 'AI-Based Test Automation Framework',
+    desc: 'LangChain + Mistral LLM test case generator with pytest, GitHub Actions CI/CD, and HTML reports. Fully offline via Ollama — zero API cost.',
+    tags: ['Python', 'LangChain', 'Mistral', 'pytest', 'Docker'],
+    github: 'https://github.com/1601chirag/ai-test-framework',
   },
 ]
 
