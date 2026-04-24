@@ -21,7 +21,15 @@ const projects = [
     title: 'Security Intelligence Platform',
     desc: 'AI-powered CVE vulnerability manager pulling NIST NVD data. LangChain triage agent maps findings to OWASP Top 10 and generates remediation steps.',
     tags: ['FastAPI', 'LangChain', 'ChromaDB', 'Docker', 'Plotly'],
-    github: 'https://github.com/ph403178-web/security-intelligence-platform',
+    github: 'https://github.com/1601chirag/security-intelligence-platform',
+  },
+
+    {
+    num: '04',
+    title: 'Multi-Model AI Orchestrator with Cost & Latency Optimization',
+    desc: 'Multi-model AI routing system with real-time cost optimization, latency-aware decisions, and streaming support.',
+    tags: ['FastAPI', 'React', 'Redis', 'Docker', 'Pydantic',],
+    github: 'https://github.com/1601chirag/ai-orchestrator',
   },
 ]
 
